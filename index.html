@@ -3,11 +3,112 @@
 
 <head>
     <!-- TODO: Include Font Awesome file here -->
+
     <!-- TODO: Include Google Fonts file here -->
+
+
+
+
+    <link href="styles/header.css" rel="stylesheet">
+    <link href="styles/index.css" rel="stylesheet">
+
+
 </head>
 
-<body>
-    <!-- TODO: Include all your code for the header and home page here -->
+<body >
+
+    <!-- Creat post Model -->
+    <div class="post_create_model">
+    <div class="creat_post">
+        <span class="creat_post_cross">&times;</span>
+        <h1>Pen your post</h1>
+        <hr>
+
+        <form>
+            <p>Title:</p>
+            <input type="text" class="post_title">
+
+            <p>Content:</p>
+            <textarea></textarea>
+            <input type="submit" class="s_button" value="Create">
+
+        </form>
+
+
+    </div>
+</div>
+
+    <!-- Sign up Model -->
+    <div class="model_signup_">
+        <div class="signup">
+            <span class="signup_cross">&times;</span>
+            <h1>Get Started</h1>
+            <hr>
+
+            <form>
+                <p>Full Name</p>
+                <input type="text" class="Name" placeholder="Enter Full Name" required>
+
+                <p>Username</p>
+                <input type="text" class="user_name" placeholder="Enter Username" required>
+
+                <p>Password</p>
+                <input type="password" class="u_pass" placeholder="Enter Password" required>
+
+                <p> Confirm Password</p>
+                <input type="password" class="u_c_pass" placeholder="Confirm Password" required>
+
+                <input type="submit" class="signup_btn" value="Sign up">
+            </form>
+
+        </div>
+    </div>
+
+    <!-- Sign in Model -->
+    <div class="modal_signin">
+        <div class="signin">
+            <span class="signin_cross">&times;</span>
+            <h1>Welcome Back!</h1>
+            <hr>
+
+            <form>
+                <p>Username</p>
+                <input type="text" class="user_name" placeholder="Enter Username" required>
+
+                <p>Password</p>
+                <input type="password" class="user_pass" placeholder="Enter Password" required>
+
+                <input type="submit" class="signin_btn" value="Submit">
+
+            </form>
+            <h3 class="Nan_member">Not a member?<a class="member_check"><span> Sign up </span></a></h3>
+
+        </div>
+    </div>
+
+
+
+    <!-- LOGO and header -->
+    <div class="header_area">
+        <button class="user_buttons" id="btn">Sign Up</button>
+        <button class="user_buttons">Sign In</button>
+        <a class="logo_header">ScriBBler</a>
+        <p class="logo_tagline">Explore, Imagine, Create</p>
+    </div>
+
+
+
+    <!-- Center buttons -->
+    <div id="buttons_for_posts">
+        <a href="html/bloglist.html"><button class="display_allposts">All Posts</button></a>
+        <button id="create_post_btn" class="display_allposts">Create Posts</button>
+    </div>
+
+    <!-- Kinshuk -->
+
+
+    <script src="scripts/index.js"></script>
+    <script src="scripts/header.js"></script>
 </body>
 
 </html>
