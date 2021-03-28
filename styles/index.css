@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    width: 1500px;
+    height: 907px;
+    background-size: 1600px 907px;
+}
+
+#buttons_for_posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.display_allposts {
+    margin: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    color: black;
+}
+
+
+/*  creat Post model  */
+
+.post_create_model {
+    position: fixed;
+    display: none;
+    z-index: 5;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: -5px;
+}
+
+.creat_post {
+    padding: 15px 50px;
+    background-color: #dddddd;
+    color: black;
+    font-family: 'Acme', sans-serif;
+    width: 50%;
+    height: 80%;
+    border: 2px solid black;
+}
+
+.creat_post h1 {
+    text-align: center;
+}
+
+.creat_post form input {
+    width: 50%;
+    height: 30px;
+    margin-top: 2px;
+    font-size: 15px;
+    border: 2px solid #dddddd;
+    color: #1b1717;
+    font-family: 'Acme', sans-serif;
+}
+
+.creat_post form input:focus {
+    background-color: #dddddd;
+}
+
+.creat_post form p {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.creat_post form .s_button {
+    width: 40%;
+    margin: 30px 30%;
+    justify-content: center;
+    background-color: #4CAF50;
+    height: 30px;
+    color: white;
+}
+
+.creat_post form textarea {
+    width: 100%;
+    height: 300px;
+    margin-top: 2px;
+    font-size: 15px;
+    border: 2px solid #dddddd;
+    color: #1b1717;
+    font-family: 'Acme', sans-serif;
+}
+
+.creat_post_cross {
+    font-size: 50px;
+    float: right;
+}
+
+
+
+
+/*
+kinshuk
+ */
