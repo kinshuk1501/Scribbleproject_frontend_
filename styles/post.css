@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+.post_parent_container{
+    margin: 0 5%;
+}
+
+.post_parent_container #post_title_main{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Bubblegum Sans', cursive;
+}
+.post_parent_container #post_title_edit{
+    margin:0px auto;
+    display:none;
+    height: 34px;
+    width: auto;
+    font-size: 30px;
+    border: 2px solid lightpink;
+    font-family: 'Bubblegum Sans', cursive;
+    overflow: hidden;
+}
+
+.post_parent_container .container_button_name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.post_parent_container .container_button_name #name{
+    font-size: 20px;
+
+}
+
+
+.post_parent_container .container_button_name #edit{
+    height: 40px;
+    font-size: 15px;
+    padding: 5px 20px;
+    background-color: #ff3385;
+    color: white;
+    border: none;
+    box-shadow: 2px 5px 10px #ff3385;
+
+}
+
+.post_parent_container .container_button_name #save{
+    display: none;
+    height: 40px;
+    font-size: 15px;
+    padding: 5px 20px;
+    background-color: #ff3385;
+    color: white;
+    border: none;
+    box-shadow: 2px 5px 10px #ff3385;
+
+}
+.post_parent_container #like{
+    margin-top: 10px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px 40px;
+    background-color: #ff3385;
+    color: white;
+    border: none;
+    box-shadow: 2px 5px 10px #ff3385;
+    border-radius: 5px;
+}
+.post_parent_container #comment_add_content{
+    height: 100px;
+    width: 60%;
+}
+
+.post_parent_container #comment{
+    margin-top: 10px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px 40px;
+    background-color: #ff3385;
+    color: white;
+    border: none;
+    box-shadow: 2px 5px 10px #ff3385;
+}
+
+.post_parent_container #all_comment{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 20px;
+}
+.post_parent_container #all_comment .comment_content{
+    background-color: white;
+    width: 100%;
+    height:40px;
+    align-content: center;
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#post_content_body_edit{
+    width: 100%;
+    display: none;
+    margin-top: 10px;
+    border: 2px solid lightblue;
+    font-family: 'Kelly Slab', cursive;
+    font-size: 20px;
+}
+#post_content_body{
+    font-family: 'Kelly Slab', cursive;
+    font-size: 20px;
+}
+
+/*
+Kinshuk
+ */
