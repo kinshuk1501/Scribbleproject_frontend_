@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post List</title>
+
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/post.css">
+</head>
+<body>
+
+<!-- Sign up Model -->
+<div class="model_signup_">
+    <div class="signup">
+        <span class="signup_cross">&times;</span>
+        <h1>Get Started</h1>
+        <hr>
+
+        <form>
+            <p>Full Name</p>
+            <input type="text" class="Name" placeholder="Enter Full Name" required>
+
+            <p>Username</p>
+            <input type="text" class="user_name" placeholder="Enter Username" required>
+
+            <p>Password</p>
+            <input type="password" class="u_pass" placeholder="Enter Password" required>
+
+            <p> Confirm Password</p>
+            <input type="password" class="u_c_pass" placeholder="Confirm Password" required>
+
+            <input type="submit" class="signup_btn" value="Sign up">
+        </form>
+
+    </div>
+</div>
+
+<!-- Sign in Model -->
+<div class="modal_signin">
+    <div class="signin">
+        <span class="signin_cross">&times;</span>
+        <h1>Welcome Back!</h1>
+        <hr>
+
+        <form>
+            <p>Username</p>
+            <input type="text" class="user_name" placeholder="Enter Username" required>
+
+            <p>Password</p>
+            <input type="password" class="user_pass" placeholder="Enter Password" required>
+
+            <input type="submit" class="signin_btn" value="Submit">
+
+        </form>
+        <h3 class="Nan_member">Not a member?<a class="member_check"><span> Sign up </span></a></h3>
+
+    </div>
+</div>
+
+<!-- LOGO and header -->
+<div class="header">
+    <button class="user_buttons" id="btn">Sign Up</button>
+    <button class="user_buttons">Sign In</button>
+    <a  class="logo_header">ScriBBler</a>
+    <p class="logo_tagline">Explore, Imagine, Create</p>
+</div>
+
+
+<!-- POST VIEW AREA -->
+<div class="post_parent_container">
+    <h1 id="post_title_main">The Legend jimi</h1>
+    <!-- Hidden title for edit -->
+    <textarea   id="post_title_edit"></textarea>
+    <div class="container_button_name">
+        <p id="name">JIMI</p>
+        <button id="edit" onclick="edit_post()">Edit <img src="https://img.icons8.com/metro/15/ffffff/edit-property.png"/></button>
+        <!-- hidden button for save -->
+        <button id="save" onclick="save_post()">Save <img src="https://img.icons8.com/ios-filled/15/ffffff/save--v1.png"/></button>
+    </div>
+    <p id="post_content_body">
+
+        The lone lamp post of the one-street town flickered, not quite dead but definitely on its way out. Suitcase by her side, she paid no heed to the light, the street or the town. A car was coming down the street and with her arm outstretched and thumb in the air, she had a plan.
+        You can decide what you want to do in life, but I suggest doing something that creates. Something that leaves a tangible thing once you're done. That way even after you're gone, you will still live on in the things you created.
+    </p>
+    <!-- hidden body for edit -->
+    <textarea id="post_content_body_edit"></textarea>
+    <button id="like" onclick="like_post()"><img src="https://img.icons8.com/fluent-systems-filled/20/ffffff/facebook-like.png"/>Like</button>
+    <p id="like_counter">Be first one to like this!</p>
+    <textarea id="comment_add_content" placeholder="leave a comment..."></textarea><br>
+    <button id="comment" onclick="post_comment()">Comment</button>
+    <h3 id="comment_head">ALL Comments</h3>
+    <div id="all_comment">
+
+    </div>
+</div>
+
+<!-- Kinshuk -->
+
+<script src="../scripts/post.js"></script>
+<script src="../scripts/header.js"></script>
+</body>
+</html>
